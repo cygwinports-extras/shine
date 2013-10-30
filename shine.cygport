@@ -1,5 +1,5 @@
 NAME="shine"
-VERSION=3.0.0
+VERSION=2.0.0
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="Fixed-point MP3 encoder"
@@ -8,10 +8,10 @@ fixed-point arithmetic. The library can thus be used to implement super fast
 mp3 encoding on any architecture, with or without a FPU."
 HOMEPAGE="http://savonet.sourceforge.net/"
 SRC_URI="mirror://sourceforge/savonet/${NAME}-${VERSION}.tar.gz"
-PATCH_URI="3.0.0-vpath.patch"
+PATCH_URI="2.0.0-vpath.patch"
 
-PKG_NAMES="shine libshine3 libshine-devel"
+PKG_NAMES="shine libshine2 libshine-devel"
 shine_CATEGORY="Audio"
 shine_CONTENTS="usr/bin/shine* usr/share/doc/"
-libshine3_CONTENTS="usr/bin/cygshine-3.dll"
+libshine2_CONTENTS="usr/bin/cygshine-2.dll"
 libshine_devel_CONTENTS="usr/include/ usr/lib/"
